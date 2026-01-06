@@ -66,6 +66,13 @@ npx prisma migrate dev --name <migration_name>
 npx prisma db seed
 ```
 
+### テストの実行
+
+```bash
+# テストの実行（コンテナ内）
+npm test
+```
+
 ## 技術スタック
 
 - **Frontend**: Next.js 15, React 19, Tailwind CSS
