@@ -35,8 +35,11 @@ docker compose exec app bash
 # 依存パッケージのインストール
 npm install
 
-# データベースのマイグレーションとクライアント生成
+# データベースのマイグレーション
 npx prisma migrate dev
+
+# Prisma クライアントの生成
+npx prisma generate
 
 # 初期データ（Seeder）の投入
 npx prisma db seed
